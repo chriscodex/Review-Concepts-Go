@@ -18,4 +18,6 @@ func main() {
 	var c string
 	var d bool
 	fmt.Println(a, b, c, d)
+	//Zero Value String
+	fmt.Println(c)
 }
