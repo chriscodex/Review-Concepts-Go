@@ -30,7 +30,7 @@ func main() {
 	x--
 	fmt.Println(x)
 	// Circle area
-	var r int = 10
+	var r uint = 10
 	areaC := math.Pow(float64(r), 2) * math.Pi
 	fmt.Println("Area: ", areaC)
 	// Trapezium area

@@ -8,7 +8,7 @@ func main() {
 	const pi = 3.14
 	fmt.Println(pi)
 	//Variable
-	var base int = 10
+	var base uint = 10
 	fmt.Println(base)
 	pow := base * base
 	fmt.Println(pow)
