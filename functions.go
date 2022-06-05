@@ -12,12 +12,12 @@ func returnValue(a int) int {
 	return a * a
 }
 
-//Double Return
+//Multiple Return
 func doubleReturn(a int) (int, string) {
 	b := a * 3
 	return b, "messages"
 }
-func doubleReturn2(a int) (int, int, string) {
+func tripleReturn(a int) (int, int, string) {
 	return a * 8, a * 7, "hello"
 }
 
@@ -30,7 +30,7 @@ func main() {
 	// Double return function
 	value1, value2 := doubleReturn(4)
 	fmt.Printf("\nValue1: %d\nValue2: %s", value1, value2)
-	// Double return 2 function
-	value3, value4, value5 := doubleReturn2(1)
+	// Triple return function
+	value3, value4, value5 := tripleReturn(1)
 	fmt.Printf("\nValue1: %d\nValue2: %d\nValue3: %s", value3, value4, value5)
 }
