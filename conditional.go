@@ -43,4 +43,33 @@ func main() {
 	} else {
 		fmt.Printf("The number %d is odd\n", number)
 	}
+	// Normal Switch
+	val3 := 100
+	switch val3 {
+	case 10:
+		fmt.Println("Ten")
+	case 100:
+		fmt.Println("One Hundred")
+	default:
+		fmt.Println("Other number")
+	}
+	// Other way (Only for switch scope)
+	switch val4 := 10; val4 {
+	case 10:
+		fmt.Println("Ten")
+	case 100:
+		fmt.Println("One Hundred")
+	default:
+		fmt.Println("Other number")
+	}
+	// No condition
+	val4 := 6
+	switch {
+	case val4 < 5:
+		fmt.Println("Less than 5")
+	case val4 > 10:
+		fmt.Println("Higher than 10")
+	default:
+		fmt.Println("Other number")
+	}
 }
