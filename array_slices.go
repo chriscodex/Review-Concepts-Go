@@ -19,4 +19,7 @@ func main() {
 	fmt.Println(slice)
 	slice[0] = 10
 	fmt.Println(slice, slice2)
+	for i := range array {
+		fmt.Println(i)
+	}
 }
