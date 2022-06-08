@@ -8,6 +8,12 @@ func deferFunc() {
 	defer fmt.Println("2")
 	fmt.Println("3")
 	defer fmt.Println("4")
+	/* Output gor this function
+	1
+	3
+	4
+	2
+	*/
 }
 
 func main() {
