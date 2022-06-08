@@ -31,4 +31,7 @@ func main() {
 	myRectangle := rectangle{base: 10, height: 18.12}
 	fmt.Println(myCircle.area())
 	fmt.Println(myRectangle.area())
+	// Interface list
+	Vinterface := []interface{}{1, "Hello", true, 3.14}
+	fmt.Println(Vinterface...)
 }
