@@ -14,6 +14,6 @@ func main() {
 	Asus
 	Rocky
 	*/
-	// Both objects have the same method wich is ShowFirstItem, but with interfaces the program can difference them
-	
+	// Both objects have the same method wich is ShowFirstItem, but with interfaces the program can difference them.
+	// The methods are detail in package myInterfaces.
 }
