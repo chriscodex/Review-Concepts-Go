@@ -10,4 +10,10 @@ func main() {
 	myDog := inter.Dog{Name: "Rocky", Size: "Medium"}
 	fmt.Println(myPeripheral.ShowFirstItem())
 	fmt.Println(myDog.ShowFirstItem())
+	/* Output in console:
+	Asus
+	Rocky
+	*/
+	// Both objects have the same method wich is ShowFirstItem, but with interfaces the program can difference them
+	
 }
