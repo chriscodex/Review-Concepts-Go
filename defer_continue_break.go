@@ -31,4 +31,12 @@ func main() {
 			break
 		}
 	}
+	/*Output
+	1
+	3
+	4
+	2
+	2
+	6
+	*/
 }
