@@ -22,9 +22,9 @@ func isPalindrome(word string) bool {
 		textReverse += string(word[i])
 	}
 	if textReverse == word {
-		return true
+		fmt.Println("It's a palindrome")
 	} else {
-		return false
+		fmt.Println("It's not a palindrome")
 	}
 }
 
