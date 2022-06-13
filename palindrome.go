@@ -14,7 +14,7 @@ func scan() string {
 	return scanner.Text()
 }
 
-func isPalindrome(word string) bool {
+func isPalindrome(word string) {
 	word = strings.ToLower(word)
 	word = strings.ReplaceAll(word, " ", "")
 	var textReverse string
@@ -29,10 +29,5 @@ func isPalindrome(word string) bool {
 }
 
 func main() {
-	scan()
-	if isPalindrome("amor a roma") {
-		fmt.Println("It's a palindrome")
-	} else {
-		fmt.Println("It's not a palindrome")
-	}
+	isPalindrome(scan())
 }
