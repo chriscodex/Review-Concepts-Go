@@ -1,9 +1,18 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"strings"
 )
+
+func scan() string {
+	scanner := bufio.NewScanner(os.Stdin)
+	scanner.Scan()
+	scanner.Text()
+	return scanner.Text()
+}
 
 func isPalindrome(word string) bool {
 	word = strings.ToLower(word)
@@ -20,6 +29,7 @@ func isPalindrome(word string) bool {
 }
 
 func main() {
+	scan()
 	if isPalindrome("amor a roma") {
 		fmt.Println("It's a palindrome")
 	} else {
