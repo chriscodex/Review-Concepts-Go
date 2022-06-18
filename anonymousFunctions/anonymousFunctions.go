@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func simpleExample() {
 	x := "hello"
@@ -10,6 +13,18 @@ func simpleExample() {
 	fmt.Println(y)
 }
 
+func goRoutineExample() {
+	c := make(chan struct{})
+	go func() {
+		fmt.Println("Starting")
+		time.Sleep(3 * time.Second)
+		fmt.Println("End")
+		c <- struct{}{}
+	}()
+	<-c
+}
+
 func main() {
 	simpleExample()
+	goRoutineExample()
 }
