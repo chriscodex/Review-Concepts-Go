@@ -2,7 +2,7 @@
 <div align="center">
   Reviewing Concepts of Go
   <br>
-  <img height="100" src="https://frontdeskhelpers.com/es/wp-content/uploads/sites/2/2021/10/golang-1024x578.png" />
+  <img height="100" src="https://golang.ch/wp-content/uploads/2022/06/Screenshot-from-2022-06-23-01-35-59.png" />
 </div>
 :open_book: Documentation: <br>
 - :large_blue_circle: https://go.dev/doc/ <br>
